@@ -1,0 +1,6 @@
+A1. Load the recorded speech file into your python workspace. Once loaded, plot the graph for the speech signal. You may use the below code from librosa as a reference.
+>>> y, sr = librosa.load(filename)
+>>>librosa.display.waveshow(y)
+A2. Observe the length & magnitude range of the signal from the plot. Observing the plot, relate to the spoken words and silence between the words.
+A3. Take a small segment of the signal and play it.
+A4. Play around with your recorded speech signal for various segments. Understand the nature of the signal. Also

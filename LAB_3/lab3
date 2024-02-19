@@ -1,1 +1,4 @@
 
+A1. Use librosa.effects.trim() to remove the silence parts of speech from beginning and end of your recorded signal. Listen to the new signal and perceptually compare the audio with original.
+A2. Use librosa.effects.split() to split the recorded speech with detected silences. Play around with the top_db parameter and see the effects of split. Listen to the generated signals and observe the split quality.
+A3. Use the IEEE paper reference available above for silence detection. Compare the results with the silence detection output from librosa package.
